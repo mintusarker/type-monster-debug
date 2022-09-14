@@ -1,4 +1,4 @@
-* {
+ * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -145,8 +145,10 @@ button {
 }
 
 #histories {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* flex-wrap: wrap; */
+  gap: 50px;
   justify-content: space-around;
 }
 
@@ -156,8 +158,8 @@ button {
   padding: 50px;
   display: flex;
   flex-direction:column;
-  /* justify-content: space-between; */
-  align-items:flex-start;
+  justify-content: space-between;
+  /* align-items:flex-start; */
   padding: 20px 30px;
   color: white;
   border-radius: 15px;
@@ -186,15 +188,15 @@ button {
   top: 0;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 576px) {
   .box-container {
-    padding: 0 20px;
+    padding: 0px 20px;
     width: 100%;
   }
   .card {
     flex-direction: column;
   } 
  } 
+ 
 
-
-
+ 
