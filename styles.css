@@ -188,15 +188,26 @@ button {
   top: 0;
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 700px) {
   .box-container {
     padding: 0px 20px;
     width: 100%;
   }
+  
+  
   .card {
     flex-direction: column;
   } 
- } 
+ } ;
  
 
- 
+@media only screen and (min-width: 700px) and (max-width: 992px) {
+  #histories {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .card {
+    align-items: center;
+  }
+};
