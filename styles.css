@@ -155,9 +155,9 @@ button {
   height: 100%;
   padding: 50px;
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
   justify-content: space-between;
-  /* align-items: center; */
+  align-items: flex-start;
   padding: 20px 30px;
   color: white;
   border-radius: 15px;
@@ -192,6 +192,9 @@ button {
     width: 100%;
   }
   .card {
-    flex-direction: column;
+    flex-direction: flex;
   } 
  } 
+
+
+
