@@ -10,6 +10,17 @@ body {
   background-position: left top;
   font-family: "Zilla Slab", serif;
 }
+ 
+/* <----blogs button---> */
+.blogs{
+  position: absolute;
+  right: 60px;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #d4ef26;
+  text-decoration: none;
+  padding: 5px;
+}
 
 .box-container {
   width: 70%;

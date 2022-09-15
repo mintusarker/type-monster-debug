@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body class="container">
+    <header class="text-center text-primary my-5">
+        <h2>Some Questions And Answers :</h2>
+    </header>
+
+<main>
+
+    
+    <div class="mx-5 gap-5 my-5">
+
+        <div class="card border-primary mb-4 w-auto">
+            <div class=" fs-4 card-header bg-transparent border-success">What is the difference between local storage and session storage ?</div>
+            <div class="card-body text-success">
+              
+              <p class="card-text fs-5">Answer : Local and session storage are JavaScript APIs that you can use to store data on the client-side. They allow a website to store data on the browser and instruct the browser to access it later on. It allows for larger amounts of data to be stored, but the data is not deleted when the browser is closed. Local storage is useful for storing data that the user will need to access later, such as offline data.
+    
+                Session storage is similar to cookies, but the data is only stored for the current session. This means that the data will be deleted when the user closes the browser. Session storage is useful for storing data that is sensitive, such as login credentials. 
+                 
+                The main difference between sessionStorage and localStorage is that localStorage data does not expire, whereas sessionStorage data is cleared when the page session ends.</p>
+            </div>
+            </div>
+
+           <div class="card border-success mb-4 w-auto">
+            <div class=" fs-4 card-header bg-transparent border-success">What is the difference between Global scope and Block scope ? ?</div>
+            <div class="card-body text-success">
+              
+              <p class="card-text fs-5">Answer : In a programming environment, the global scope is the scope that contains, and is visible in, all other scopes. In client-side JavaScript, the global scope is generally the web page inside which all the code is being executed. A variable declared at the top of a program or outside of a function is considered a global scope variable. A global variable is accessible from anywhere in the code. <br>
+
+                A block scoped variable means that the variable defined within a block will not be accessible from outside the block. A block can reside inside a function, and a block scoped variable will not be available outside the block even if the block is inside a function.</p>
+            </div>
+            
+          </div>
+           <div class="card border-info mb-4 w-auto">
+            <div class=" fs-4 card-header bg-transparent border-success">How does javascript event loop work ?</div>
+            <div class="card-body text-success">
+              
+              <p class="card-text fs-5">Answer : JavaScript has a runtime model based on an event loop, which is responsible for executing the code, collecting and processing events, and executing queued sub-tasks. The Event Loop has one simple job to monitor the Call Stack and the Callback Queue. If the Call Stack is empty, the Event Loop will take the first event from the queue and will push it to the Call Stack, which effectively runs it. Such an iteration is called a tick in the Event Loop. If the call stack is not empty, the event loop waits until it is empty and places the next function from the callback queue to the call stack. If the callback queue is empty, nothing will happen.</p>
+            </div>
+            
+          </div>
+           <div class="card border-success mb-4 w-auto">
+            <div class=" fs-4 card-header bg-transparent border-success"> How many ways can we get Undefind in javascript?</div>
+            <div class="card-body text-success">
+              
+              <p class="card-text fs-5">Answer : There are many ways to get undefined. such as : <br>
+
+
+               1. Accessing uninitialized variable. <br>
+
+               2. Without return statement, a JavaScript function returns undefined. <br>
+               
+               3. Calling a function without parameter which is uses as an arguments in it. <br>
+
+               4. The function parameters implicitly default to undefined. <br>
+               5. You get undefined when accessing an array element with an out of bounds index. <br>
+
+               6. non existing property in an object, calling will be undefind. <br>
+
+               7. Accessing an element which is already deleted in an array. <br>
+
+               8. void evaluates the expression and returns undefined no matter the result of the evaluation.</p>
+            </div>
+            
+          </div>
+    </div>
+
+</main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
